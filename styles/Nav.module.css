@@ -1,0 +1,38 @@
+.nav {
+  height: 60px;
+  padding: 10px;
+  background: #282727;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav ul li {
+  text-align: center;
+}
+
+.nav ul li a {
+  margin: 5px 15px;
+}
+
+.navActive {
+  background-color: #03a7ce;
+  padding: 4px 20px;
+  border-radius: 15px;
+}
+
+.drawerIcon {
+  cursor: pointer;
+  font-size: 30px;
+}

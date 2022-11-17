@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["eslint:recommended", "next", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "jsxSingleQuote": false,
+        "semi": true,
+        "arrowParens": "always",
+        "endOfLine": "auto",
+        "bracketSpacing": true,
+        "bracketSameLine": true
+      }
+    ]
+  }
 }
