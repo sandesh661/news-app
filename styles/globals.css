@@ -21,7 +21,7 @@ table {
 
 /* Custom styles */
 .textCenter {
-  text-align: center;
+  text-align: center !important;
 }
 
 @media (prefers-color-scheme: dark) {

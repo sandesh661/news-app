@@ -8,7 +8,7 @@ const UsersList = ({ users }: { users: any }) => {
         <tr>
           <th>Name</th>
           <th>Email</th>
-          <th>Website</th>
+          <th>Block/Unblock</th>
         </tr>
         {users.map((user: any, ind: any) => (
           <UserItem user={user} key={ind} />
