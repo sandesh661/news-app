@@ -24,6 +24,14 @@ table {
   text-align: center !important;
 }
 
+.customLink {
+  color: black;
+  font-weight: bold;
+}
+.customLink:hover {
+  color: blue;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

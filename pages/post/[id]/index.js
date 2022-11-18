@@ -7,9 +7,9 @@ const post = ({ post }) => {
       <h1>{post.title}</h1>
       <p>{post.body}</p>
       <br />
-      <strong>
-        <Link href="/">Go Back</Link>
-      </strong>
+      <Link href="/" className="customLink">
+        Go Back
+      </Link>
     </>
   );
 };
