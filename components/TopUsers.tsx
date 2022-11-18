@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
 const TopUsersList = ({ users }: { users: any }) => {
-  const [topUsersList, setTopUserList] = useState([]);
+  const [topUsersList, setTopUserList] = useState<Number[]>([]);
 
   useEffect(() => {
     let topUserStr = localStorage.getItem('TopUsers');
