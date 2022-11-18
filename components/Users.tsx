@@ -32,6 +32,7 @@ const UsersList = ({ users }: { users: any }) => {
           <th>Name</th>
           <th>Email</th>
           <th>Block/Unblock</th>
+          <th>Top user</th>
         </tr>
         {users.map((user: any, ind: any) => (
           <UserItem user={user} key={ind} />

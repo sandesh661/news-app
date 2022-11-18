@@ -62,3 +62,10 @@
 .dropdownContent a:hover {
   background-color: #ddd;
 }
+
+.viewLink {
+  color: blue;
+}
+.viewLink:hover {
+  color: #00008d;
+}
